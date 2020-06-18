@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="5dp"
+    android:background="@color/black"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:background="@color/itemcolor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/noteDateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/06/2012"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/noteTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12/06/2012"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:maxLines="4"
+            />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
